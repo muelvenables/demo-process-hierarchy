@@ -1,0 +1,38 @@
+.monitor {
+  position: relative;
+  min-height: 100px;
+  background-color: black;
+  background-image: linear-gradient(
+      0deg,
+      transparent 24px,
+      #0d2411 24px,
+      #0d2411 25px,
+      transparent 25px
+    ),
+    linear-gradient(
+      90deg,
+      transparent 24px,
+      #0d2411 24px,
+      #0d2411 25px,
+      transparent 25px
+    );
+  background-repeat: repeat;
+  background-size: 25px 25px;
+  overflow: hidden;
+}
+.monitor .fps {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  color: green;
+  font-weight: bold;
+  text-shadow: rgb(36, 97, 36) 0px 0px 1px;
+}
+.monitor .blip {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  box-shadow: green -1px 0px 3px 3px;
+  border-radius: 2px;
+  background: lightgreen;
+}
